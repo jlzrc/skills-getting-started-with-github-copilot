@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             (email) => `
               <li class="participant-chip">
                 <span>${email}</span>
-                <button
+                <button 
                   type="button"
                   class="delete-participant-btn"
                   data-activity="${name}"
